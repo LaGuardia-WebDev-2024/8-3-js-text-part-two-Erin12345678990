@@ -8,21 +8,21 @@ html {
 }
 
 body {
-background: radial-gradient(#e2c3e5 5px, 
-      white 10px 65px, #e2c3e5  1px ) ;
+background: radial-gradient(#f19595 5px, 
+      rgb(255, 197, 197) 10px 65px, #ffb1a6  1px ) ;
     background-size: 100px 100px ; 
 }
 
 h1,
 h2 {
-  background-color: #75077d ;
+  background-color: #6b1916 ;
   border-radius: 20px;
-  color: white;
+  color: rgb(139, 55, 55);
   width: 600px;
   margin: auto;
   margin-bottom: 5px;
 }
 #myCanvas {
-  border: 5px solid  #75077d;
+  border: 5px solid  #7e211e;
   border-radius: 30px;
 }

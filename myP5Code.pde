@@ -4,8 +4,15 @@ void setup(){
 }
 
 //🟢Draw Function - Runs on Repeat
+var howSize= 1;
 draw = function(){  
-  background(255, 255, 255);
-  fill(255, 0, 255);
-  ellipse(36, 45, 12, 12); 
+  background(206, 66, 87);
+  howSize = howSize + .1;
+  var abc="Cake";
+  var yay= abc +"!"
+  fill(255, 165, 165);
+ text(abc,200,200);
+ textSize(howSize);
+ text(yay,mouseX,mouseY);
+
 };
